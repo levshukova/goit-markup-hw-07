@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header header-portfolio">
@@ -53,7 +53,7 @@
     </header>
     <main>
       <!-- <h1>Портфолио</h1> -->
-      <section class="section">
+      <section class="portfolio-section">
         <!-- Filter -->
         <div class="container filter">
           <ul class="list">
@@ -308,101 +308,97 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <div class="footer-main-container">
-          <div class="footer-left-part">
-            <a class="logo" href="index.html">
-              <p class="logo-footer"><span class="accent">Web</span> Studio</p>
-            </a>
-            <address class="address-container">
-              <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-              <a href="mailto:info@example.com" class="link address-link"
-                >info@example.com</a
-              ><br />
-              <a href="tel:+380991111111" class="link address-link"
-                >+38 099 111 11 11</a
-              >
-            </address>
-          </div>
-          <div class="socials">
-            <p class="text">присоединяйтесь</p>
-            <ul class="list socials-list-footer">
-              <li class="socials-item-footer button-socials-footer">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  class="socials-link-footer"
-                >
-                  <svg class="icon-socials-footer" width="20" height="20">
-                    <use
-                      href="./images/symbol-defs-opt.svg#icon-instagram-footer"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-item-footer button-socials-footer">
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  class="socials-link-footer"
-                >
-                  <svg class="icon-socials-footer" width="20" height="20">
-                    <use
-                      href="./images/symbol-defs-opt.svg#icon-twitter-footer"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-item-footer button-socials-footer">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  class="socials-link-footer"
-                >
-                  <svg class="icon-socials-footer" width="20" height="20">
-                    <use
-                      href="./images/symbol-defs-opt.svg#icon-facebook-footer"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="socials-item-footer button-socials-footer">
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  class="socials-link-footer"
-                >
-                  <svg class="icon-socials-footer" width="20" height="20">
-                    <use
-                      href="./images/symbol-defs-opt.svg#icon-linkedin-footer"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="subscription-container">
-            <b class="text">Подпишитесь на рассылку</b>
-            <form method="POST" class="subcription-form">
-              <label class="subcription-form-label">
-                <input
-                  type="email"
-                  name="email"
-                  class="subcription-form-input"
-                  placeholder="E-mail"
-                />
-              </label>
-              <button type="submit" class="button">
-                Подписаться
-                <svg class="icon-send" width="24" height="24">
-                  <use href="./images/symbol-defs-opt.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </form>
-          </div>
+      <div class="footer-main-container">
+        <div class="footer-left-part">
+          <a class="logo" href="index.html">
+            <p class="logo-footer"><span class="accent">Web</span> Studio</p>
+          </a>
+          <address class="address-container">
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="address-link"
+              >info@example.com</a
+            ><br />
+            <a href="tel:+380991111111" class="address-link"
+              >+38 099 111 11 11</a
+            >
+          </address>
         </div>
-
-        <p class="copyright">2020 | Developed by GoIT Students</p>
+        <div class="socials">
+          <p class="text">присоединяйтесь</p>
+          <ul class="list socials-list-footer">
+            <li class="socials-item-footer button-socials-footer">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="socials-link-footer"
+              >
+                <svg class="icon-socials-footer" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs-opt.svg#icon-instagram-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer button-socials-footer">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="socials-link-footer"
+              >
+                <svg class="icon-socials-footer" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs-opt.svg#icon-twitter-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer button-socials-footer">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="socials-link-footer"
+              >
+                <svg class="icon-socials-footer" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs-opt.svg#icon-facebook-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item-footer button-socials-footer">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="socials-link-footer"
+              >
+                <svg class="icon-socials-footer" width="20" height="20">
+                  <use
+                    href="./images/symbol-defs-opt.svg#icon-linkedin-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription-container">
+          <b class="text">Подпишитесь на рассылку</b>
+          <form method="POST" class="subcription-form">
+            <label class="subcription-form-label">
+              <input
+                type="email"
+                name="email"
+                class="subcription-form-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="button">
+              Подписаться
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/symbol-defs-opt.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

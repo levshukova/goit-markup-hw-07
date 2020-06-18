@@ -1,0 +1,49 @@
+.footer {
+  color: $primary-white-color;
+  background-color: $footer-bg-color;
+}
+.footer-main-container {
+  @extend %container;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer .logo {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+
+  color: $primary-white-color;
+  font-size: 22px;
+  line-height: 1.12;
+}
+.logo-footer {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.address-container {
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  & .address {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+}
+.address-link {
+  display: inline-block;
+  color: $icon-color-footer;
+  @extend %link;
+
+  &:hover,
+  &:focus {
+    color: $primary-accent-color;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
